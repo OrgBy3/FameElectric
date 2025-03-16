@@ -986,6 +986,7 @@ Location:
 }
 
 .header-btn1 {
+  display: none !important;
   font-family: var(--ztc-family-font1);
   font-size: var(--ztc-font-size-font-s16);
   font-weight: var(--ztc-weight-bold);
@@ -2755,6 +2756,7 @@ Location:
   opacity: 1;
 }
 .slider-header-carousel .owl-item.active .hero1-section-area .hero-heading-area .header-bottom-images {
+  display: none !important;
   transition: transform 2000ms ease, opacity 2000ms ease;
   transform: translateX(0px);
   opacity: 1;
