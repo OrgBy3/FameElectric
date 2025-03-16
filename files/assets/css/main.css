@@ -987,6 +987,7 @@ Location:
 
 .header-btn1 {
   display: none !important;
+  display: none !important;
   font-family: var(--ztc-family-font1);
   font-size: var(--ztc-font-size-font-s16);
   font-weight: var(--ztc-weight-bold);
@@ -2755,7 +2756,7 @@ Location:
   transform: translateX(0px);
   opacity: 1;
 }
-/* .slider-header-carousel .owl-item.active .hero1-section-area .hero-heading-area .header-bottom-images {
+.slider-header-carousel .owl-item.active .hero1-section-area .hero-heading-area .header-bottom-images {
   transition: transform 2000ms ease, opacity 2000ms ease;
   transform: translateX(0px);
   opacity: 1;
@@ -3397,7 +3398,7 @@ Location:
 /*============= HERO CSS AREA ===============*/
 /*============= MOBILE MENU CSS AREA ===============*/
 .mobile-header.mobile-haeder1 {
-  background: var(--ztc-text-text-3);
+  background: rgba(52, 47, 47, 0.247);
   position: fixed;
   width: 100%;
 }
@@ -5879,7 +5880,7 @@ Location:
   animation-name: fade-in-down;
   animation-duration: 1s;
   animation-fill-mode: forwards;
-  background: var(--ztc-text-text-3);
+  background: rgba(52, 47, 47, 0.247);
   padding: 0;
   transition: all 0.4s;
 }
