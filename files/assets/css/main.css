@@ -5184,6 +5184,20 @@ Location:
   transition: all 0.4s;
   display: inline-block;
   padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 15px;
+  
+  /* Ensure the links wrap correctly and don’t overflow */
+  white-space: nowrap; /* Allow wrapping */
+  word-wrap: break-word; /* Break long words */
+  overflow-wrap: break-word; /* Same as above */
+  
+  /* Prevent the link from overflowing its container */
+  max-width: 100%; /* Makes sure it doesn't exceed parent width */
+  text-overflow: ellipsis; /* Adds ellipsis if text overflows */
+  
+  /* Optionally: Ensure the links are proportional within the footer */
+  flex: 1 1 auto; /* Allow the links to grow/shrink proportionally */
 }
 .footer1-section-area .footer-logo-content .service-heading ul li a:hover {
   color: var(--ztc-text-text-2);
@@ -5206,7 +5220,7 @@ Location:
   background: #01060E;
   transition: all 0.4s;
   display: inline-block;
-  margin: 0 8px 0 0;
+  margin: 0 8px 0 20px;
 }
 .footer1-section-area .copyright p {
   font-family: var(--ztc-family-font1);
