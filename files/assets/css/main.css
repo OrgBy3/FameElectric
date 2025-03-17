@@ -2293,7 +2293,7 @@ Location:
 .service2-section-area .service2-author-boxarea .service-content .readmore i {
   margin-left: 4px;
   transform: rotate(-45deg);
-}
+}   
 
 .service3-section-area {
   position: relative;
@@ -2319,7 +2319,7 @@ Location:
   margin-bottom: 30px;
 }
 .service3-section-area .service-auhtor-boxarea:hover {
-  background: var(--ztc-bg-bg-7);
+  background: red;
   transition: all 0.4s;
   transform: translateY(-5px);
 }
@@ -2339,7 +2339,7 @@ Location:
   line-height: 70px;
   display: inline-block;
   border-radius: 4px;
-  background: var(--ztc-bg-bg-7);
+  background: red;
   transition: all 0.4s;
   margin: 0 auto;
 }
