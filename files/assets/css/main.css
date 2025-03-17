@@ -2872,6 +2872,12 @@ Location:
     padding: 200px 0 130px;
   }
 }
+.hero1-section-area {
+  position: relative;
+  height: 100vh; 
+  width: 100%;
+  overflow: hidden;
+} 
 .hero1-section-area .header-img1 {
   position: absolute;
   top: 0;
@@ -2880,8 +2886,7 @@ Location:
   bottom: 0;
   height: 100%;
   width: 100% !important;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover; 
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
