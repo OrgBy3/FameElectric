@@ -5721,11 +5721,6 @@ img {
 .team1-section-area .team-auhtor-boxarea:hover .images {
   transition: all 0.4s;
 }
-.team1-section-area .team-auhtor-boxarea:hover .images::after {
-  height: 100%;
-  width: 100%;
-  transition: all 0.4s;
-}
 .team1-section-area .team-auhtor-boxarea:hover .images img {
   transform: scale(1.1) rotate(-4deg);
   transition: all 0.4s;
