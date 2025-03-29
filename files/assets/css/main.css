@@ -6278,6 +6278,7 @@ img {
   position: relative;
   z-index: 1;
   margin-bottom: 20px;
+  margin-left: 10px;
 }
 .contact1-section-area .contact-header-area h5::after {
   position: absolute;
